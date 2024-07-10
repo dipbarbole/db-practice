@@ -1,0 +1,43 @@
+.outer {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0; /* Optional: for visibility */
+  }
+  
+  .inner {
+    width: 50px;
+    height: 50px;
+    background-color: #007BFF; /* Optional: for visibility */
+    border-radius: 50%;
+  }
+
+  /* Below code to be tested  */
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .flex-item {
+    flex: 1 1 200px; /* Flex-grow, flex-shrink, and flex-basis */
+    margin: 10px;
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+  }
+  .grid-item {
+    background: lightblue;
+    padding: 20px;
+  }
+  
+  
